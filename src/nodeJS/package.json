@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "module": "es2022",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-1000": "node app.js ..\\test\\measurements-1000.txt",
+    "dev-10000": "node app.js ..\\test\\measurements-10000.txt",
+    "dev-1000000": "node app.js ..\\test\\measurements-1000000.txt",
+    "dev-100000000": "node app.js ..\\test\\measurements-100000000.txt",
+    "dev-full": "node app.js ..\\test\\measurements-full.txt"
+  },
+  "keywords": [],
+  "author": "Luiz Fernando Cavalcanti",
+  "license": "ISC"
+}
